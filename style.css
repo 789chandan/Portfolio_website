@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2em;
+    color: blue;
+    cursor: default;
+}
+
+.logo h2:hover {
+    color: chartreuse;
+}
+
+.logo span {
+    color: crimson;
+}
+.navigation{
+    margin-left: -200px;
+}
+.navigation a {
+    font-size: 1.1em;
+    color: rgb(248, 4, 4);
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    color: blueviolet;
+}
+
+.btn-talk {
+    color: aqua;
+    text-decoration: none;
+    padding: 8px 35px;
+    background-color: rgb(52, 76, 235);
+    border: 2px solid rgb(1, 94, 243);
+    border-radius: 10px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.btn-talk:hover {
+    color: blueviolet;
+    background: transparent;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('home.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.content {
+    max-width: 500px;
+    color: rgb(228, 80, 60);
+}
+
+.content h2 {
+    font-size: 2em;
+
+}
+
+.content h2 span {
+    color: rgb(60, 220, 20);
+}
+
+.content p {
+    padding: 10px 0 40px;
+    color: rgb(99, 44, 226);
+}
+
+.btn-group a {
+    color: rgb(251, 253, 255);
+    text-decoration: none;
+    padding: 10px 40px;
+    background: rgb(119, 6, 129);
+    border-radius: 10px;
+    border: 2px solid rgb(123, 0, 245);
+    font-weight: 500;
+    transition: .3s;
+}
+
+.btn-group a:hover:nth-child(2) {
+    color: aliceblue;
+    background: purple;
+}
+
+.btn-group a:hover:nth-child(1) {
+    color: rgb(255, 28, 229);
+    background: transparent;
+}
+
+.btn-group a:nth-child(2) {
+    color: blueviolet;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 3opx;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: purple;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid white;
+    outline: 2px solid purple;
+    transition: .3s;
+}
+
+.social-icons a:hover {
+    transform: translateY(-20px);
+}
+
+.social-icons a i {
+    color: white;
+}
